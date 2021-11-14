@@ -14,6 +14,8 @@
 		82DE57882740932A005984C1 /* examenIosSport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82DE57862740932A005984C1 /* examenIosSport.xcdatamodeld */; };
 		82DE578A2740932B005984C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DE57892740932B005984C1 /* Assets.xcassets */; };
 		82DE578D2740932B005984C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DE578B2740932B005984C1 /* LaunchScreen.storyboard */; };
+		82DE579527409A03005984C1 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DE579427409A03005984C1 /* DetailsViewController.swift */; };
+		82DE579727409A29005984C1 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DE579627409A29005984C1 /* WorkoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		82DE57892740932B005984C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82DE578C2740932B005984C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82DE578E2740932B005984C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DE579427409A03005984C1 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		82DE579627409A29005984C1 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				82DE578B2740932B005984C1 /* LaunchScreen.storyboard */,
 				82DE578E2740932B005984C1 /* Info.plist */,
 				82DE57862740932A005984C1 /* examenIosSport.xcdatamodeld */,
+				82DE579427409A03005984C1 /* DetailsViewController.swift */,
+				82DE579627409A29005984C1 /* WorkoutViewController.swift */,
 			);
 			path = examenIosSport;
 			sourceTree = "<group>";
@@ -141,10 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DE579727409A29005984C1 /* WorkoutViewController.swift in Sources */,
 				82DE57882740932A005984C1 /* examenIosSport.xcdatamodeld in Sources */,
 				82DE57822740932A005984C1 /* ViewController.swift in Sources */,
 				82DE577E2740932A005984C1 /* AppDelegate.swift in Sources */,
 				82DE57802740932A005984C1 /* SceneDelegate.swift in Sources */,
+				82DE579527409A03005984C1 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
